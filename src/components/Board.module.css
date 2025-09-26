@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  width: var(--game-width);
+  height: var(--game-width);
+  background-color: var(--color-bg-board);
+  border-radius: var(--border-radius-md);
+  padding: var(--gap-space);
+  box-sizing: border-box;
+}
+
+.grid {
+  position: absolute;
+  top: var(--gap-space);
+  left: var(--gap-space);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: var(--gap-space);
+  width: calc(100% - (var(--gap-space) * 2));
+  height: calc(100% - (var(--gap-space) * 2));
+}
+
+.cell {
+  background-color: var(--color-bg-grid);
+  border-radius: var(--border-radius-sm);
+}

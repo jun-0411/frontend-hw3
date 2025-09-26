@@ -1,0 +1,54 @@
+.container {
+  width: var(--game-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 60px;
+  color: var(--color-text-dark);
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.scoresContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.scoreBox {
+  background-color: var(--color-bg-board);
+  padding: 5px 18px;
+  border-radius: var(--border-radius-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  min-width: 40px;
+}
+
+.scoreTitle {
+  font-size: 13px;
+  color: var(--color-bg-tile-2);
+  font-weight: bold;
+}
+
+.scoreValue {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 10px;
+}
