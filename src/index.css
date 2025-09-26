@@ -1,11 +1,9 @@
-/* :root는 문서의 최상위 요소를 의미하며, 전역 변수를 선언하기에 가장 좋은 장소입니다. */
 :root {
   --game-width: 500px;
   --gap-space: 15px;
   --border-radius-sm: 3px;
   --border-radius-md: 6px;
 
-  /* Color Palette */
   --color-bg-main: #faf8ef;
   --color-bg-board: #bbada0;
   --color-bg-grid: #cdc1b4;
@@ -16,7 +14,6 @@
   --color-bg-tile-32: #f67c5f;
   --color-bg-tile-64: #f65e3b;
   --color-bg-tile-128: #edcf72;
-  /* (필요에 따라 더 많은 타일 색상 추가) */
 
   --color-text-dark: #776e65;
   --color-text-light: #f9f6f2;
